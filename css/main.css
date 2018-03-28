@@ -117,6 +117,169 @@ img {
     line-height: 32px;
 }
 
+.guarantee {
+    box-shadow: 0 0 14px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+    padding: 25px 40px 25px 25px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.photo-person {
+    flex-basis: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.photo-person > div {
+    display: flex;
+}
+
+.guarantee-desc {
+    flex-basis: 80%;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+}
+
+.guarantee-desc p {
+    color: #373737;
+    margin: 0 0 5px 0;
+    line-height: 27px;
+}
+.guarantee-desc span {
+    color: #949494;
+    text-align: right;
+}
+
+.order-holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description-device {
+    flex-basis: 48%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.description-device > div:first-child {
+    flex-basis: 190px;
+}
+
+.description-device > div:last-child {
+    flex-basis: calc(100% - 230px);
+}
+
+.order-form {
+    flex-basis: 35%;
+}
+
+.details-device {
+    display: flex;
+    flex-direction: column;
+}
+
+.details-device > div {
+    margin-bottom: 10px;
+}
+
+.type {
+    color: #a7a7a7;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.type-name {
+    font-size: 26px;
+    color: #000;
+}
+
+.restoring {
+    padding: 20px 60px 20px 25px;
+    display: flex;
+    align-items: center;
+    background: #eee;
+}
+
+.restoring {
+    font-size: 22px;
+    color: #aeaeae;
+}
+
+.repair-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-title {
+    font-size: 26px;
+}
+
+.price {
+    padding: 3px 30px 3px 20px;
+    text-align: left;
+    border-radius: 10px;
+    background: #a80617;
+    font-size: 26px;
+    color: #fff;
+}
+
+.order-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.order-form p {
+    font-size: 26px;
+    margin: 0 0 28px 0;
+}
+
+.form-holder input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 18px 18px 18px 28px;
+    box-shadow: 0 0 14px 1px rgba(0, 0, 0, 0.15);
+    font-size: 22px;
+    transition: .4s all;
+    border: 2px solid transparent;
+}
+
+.form-holder input:focus {
+    outline: none;
+    border: 2px solid #a80617;
+}
+input[type=number] {
+    margin-bottom: 30px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input::-webkit-input-placeholder {
+    color: #9b9b9b;
+    font-size: 22px;
+}
+
+input[type=submit] {
+    background: #a80617;
+    cursor: pointer;
+    color: #fff;
+}
+
+input[type=submit]:hover {
+    background: #eee;
+    border: 2px solid #a80617;
+    color: #a80617;
+}
+
+#step-4 {
+    padding-bottom: 200px;
+}
 
 
 
