@@ -1,0 +1,133 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+    font: 16px/1.6 'OfficinaSansWinCTT', arial, sans-serif;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+.wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1430px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.section {
+    padding-bottom: 80px;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.section-title {
+    font-size: 30px;
+    padding-left: 33px;
+    margin-bottom: 80px;
+}
+
+.holder-section {
+    display: flex;
+}
+
+.left-container {
+    flex-basis: 123px;
+}
+
+.right-container {
+    flex-grow: 1;
+}
+
+.stepmarker {
+    width: 123px;
+    height: 43px;
+    background: #a80617;
+    line-height: 43px;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.holder-devices {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    flex-basis: calc(25% - 15px);
+    box-shadow: 0 0 14px 1px rgba(0, 0, 0, 0.15);
+    border: 2px solid transparent;
+    transition: .3s all;
+    cursor: pointer;
+}
+
+.card-device {
+    padding: 40px 54px;
+    height: 382px;
+}
+
+.card-brand {
+    height: 261px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 18px;
+}
+
+.card-problem {
+    height: 261px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 18px;
+    padding: 50px;
+}
+
+.card-problem > div {
+    text-align: center;
+}
+
+.card:hover {
+    border: 2px solid #a80617;
+}
+
+.title {
+    font-size: 26px;
+    line-height: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
