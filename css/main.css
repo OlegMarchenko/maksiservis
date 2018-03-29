@@ -287,6 +287,113 @@ input[type=submit]:hover {
     display: none;
 }
 
+@media screen and (max-width: 1024px){
+
+    .main-title {
+        font-size: 44px;
+        margin-bottom: 40px;
+    }
+
+    .stepmarker {
+        width: 85px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 20px;
+        margin-top: 8px;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    .card {
+        flex-basis: 44%;
+        margin-bottom: 30px;
+    }
+
+    .holder-devices,
+    .holder-brands,
+    .holder-problems {
+        justify-content: space-around;
+    }
+
+    .price {
+        font-size: 20px;
+        padding: 3px 18px 3px 18px;
+    }
+    .details-device > div {
+        margin-bottom: 24px
+    }
+
+    .description-device {
+        flex-basis: 59%;
+    }
+
+    .restoring {
+        padding: 15px;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+
+    .main-title {
+        font-size: 33px;
+        margin-bottom: 30px;
+    }
+
+    .card {
+        padding: 25px;
+    }
+
+    .guarantee {
+        padding: 15px;
+        flex-direction: column;
+    }
+
+    .photo-person {
+        margin-bottom: 15px;
+    }
+
+    .order-holder {
+        display: block;
+    }
+    .description-device {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 576px){
+
+    .main-title {
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+
+    .left-container {
+        display: none;
+    }
+
+    .section-title {
+        font-size: 20px;
+        margin-bottom: 30px;
+        padding-left: 0;
+    }
+
+    .holder-devices,
+    .holder-brands,
+    .holder-problems {
+        display: block;
+    }
+
+    .section {
+        padding-bottom: 30px;
+    }
+    .description-device {
+        display: block;
+    }
+}
+
 
 
 
