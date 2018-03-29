@@ -370,6 +370,11 @@ input[type=submit]:hover {
     .description-device {
         margin-bottom: 15px;
     }
+
+    .description-device > div:first-child {
+        max-width: 200px;
+    }
+
 }
 
 @media screen and (max-width: 576px){
