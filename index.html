@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="http://allfont.ru/allfont.css?fonts=officinasanswinctt" rel="stylesheet" type="text/css"/>
+    <!--<link href="http://allfont.ru/allfont.css?fonts=officinasanswinctt" rel="stylesheet" type="text/css"/>-->
     <link rel="stylesheet" href="css/main.css">
     <title>МаксиСервис</title>
 </head>
@@ -28,16 +28,16 @@
                         <div class="holder-step1">
                             <div class="section-title">Выберите технику, которую хотите отремонтировать</div>
                             <div class="holder-devices">
-                                <div class="card card-device">
-                                    <div class="title">Газовая плита</div>
+                                <div class="card card-device" data-device="electric-stove">
+                                    <div class="title">Электроплита</div>
                                 </div>
-                                <div class="card card-device">
+                                <div class="card card-device" data-device="fridge">
                                     <div class="title">Холодильник</div>
                                 </div>
-                                <div class="card card-device">
+                                <div class="card card-device" data-device="washer">
                                     <div class="title">Стиральная машина</div>
                                 </div>
-                                <div class="card card-device">
+                                <div class="card card-device" data-device="dishwasher">
                                     <div class="title">Посудомоечная машина</div>
                                 </div>
                             </div>
@@ -48,7 +48,7 @@
         </section>
 
         <!--STEP 2-->
-        <section class="section" id="step-2">
+        <section class="section step" id="step-2">
             <div class="container">
                 <div class="holder-section">
                     <div class="left-container">
@@ -57,47 +57,47 @@
                     <div class="right-container">
                         <div class="holder-step2">
                             <div class="section-title">Выберите технику, которую хотите отремонтировать</div>
-                            <div class="holder-devices">
-                                <div class="card card-brand">
-                                    <div>
-                                        <img src="image/samsung-logo-png5.png" alt="samsung">
-                                    </div>
-                                </div>
-                                <div class="card card-brand">
-                                    <div>
-                                        <img src="image/hansa.png" alt="hansa">
-                                    </div>
-                                </div>
-                                <div class="card card-brand">
-                                    <div>
-                                        <img src="image/lg.png" alt="lg">
-                                    </div>
-                                </div>
-                                <div class="card card-brand">
-                                    <div>
-                                        <img src="image/beko.png" alt="beko">
-                                    </div>
-                                </div>
-                                <div class="card card-brand">
-                                    <div>
-                                        <img src="image/aeg.png" alt="aeg">
-                                    </div>
-                                </div>
-                                <div class="card card-brand">
-                                    <div>
-                                        <img src="image/asko.png" alt="asko">
-                                    </div>
-                                </div>
-                                <div class="card card-brand">
-                                    <div>
-                                        <img src="image/bosch.png" alt="bosch">
-                                    </div>
-                                </div>
-                                <div class="card card-brand">
-                                    <div>
-                                        <img src="image/gorenje.png" alt="gorenje">
-                                    </div>
-                                </div>
+                            <div class="holder-brands">
+                                <!--<div class="card card-brand">-->
+                                    <!--<div>-->
+                                        <!--<img src="image/samsung-logo-png5.png" alt="samsung">-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                                <!--<div class="card card-brand">-->
+                                    <!--<div>-->
+                                        <!--<img src="image/hansa.png" alt="hansa">-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                                <!--<div class="card card-brand">-->
+                                    <!--<div>-->
+                                        <!--<img src="image/lg.png" alt="lg">-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                                <!--<div class="card card-brand">-->
+                                    <!--<div>-->
+                                        <!--<img src="image/beko.png" alt="beko">-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                                <!--<div class="card card-brand">-->
+                                    <!--<div>-->
+                                        <!--<img src="image/aeg.png" alt="aeg">-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                                <!--<div class="card card-brand">-->
+                                    <!--<div>-->
+                                        <!--<img src="image/asko.png" alt="asko">-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                                <!--<div class="card card-brand">-->
+                                    <!--<div>-->
+                                        <!--<img src="image/bosch.png" alt="bosch">-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                                <!--<div class="card card-brand">-->
+                                    <!--<div>-->
+                                        <!--<img src="image/gorenje.png" alt="gorenje">-->
+                                    <!--</div>-->
+                                <!--</div>-->
                             </div>
                         </div>
                     </div>
@@ -106,7 +106,7 @@
         </section>
 
         <!--STEP 3-->
-        <section class="section" id="step-3">
+        <section class="section step" id="step-3">
             <div class="container">
                 <div class="holder-section">
                     <div class="left-container">
@@ -115,47 +115,47 @@
                     <div class="right-container">
                         <div class="holder-step3">
                             <div class="section-title">Выберите проблему</div>
-                            <div class="holder-devices">
-                                <div class="card card-problem">
-                                    <div>
-                                        <span class="title">Течёт машина</span>
-                                    </div>
-                                </div>
-                                <div class="card card-problem">
-                                    <div>
-                                        <span class="title">Не набирает воду</span>
-                                    </div>
-                                </div>
-                                <div class="card card-problem">
-                                    <div>
-                                        <span class="title">Не сливает воду</span>
-                                    </div>
-                                </div>
-                                <div class="card card-problem">
-                                    <div>
-                                        <span class="title">Не крутится барабан</span>
-                                    </div>
-                                </div>
-                                <div class="card card-problem">
-                                    <div>
-                                        <span class="title">Не открывается Не закрывается</span>
-                                    </div>
-                                </div>
-                                <div class="card card-problem">
-                                    <div>
-                                        <span class="title">Извлечение посторонних предметов</span>
-                                    </div>
-                                </div>
-                                <div class="card card-problem">
-                                    <div>
-                                        <span class="title">Другая проблема</span>
-                                    </div>
-                                </div>
-                                <div class="card card-problem">
-                                    <div>
-                                        <span class="title">Другая проблема</span>
-                                    </div>
-                                </div>
+                            <div class="holder-problems">
+                                <!--<div class="card card-problem">-->
+                                    <!--<div>-->
+                                        <!--<span class="title">Течёт машина</span>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                                <!--<div class="card card-problem">-->
+                                    <!--<div>-->
+                                        <!--<span class="title">Не набирает воду</span>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                                <!--<div class="card card-problem">-->
+                                    <!--<div>-->
+                                        <!--<span class="title">Не сливает воду</span>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                                <!--<div class="card card-problem">-->
+                                    <!--<div>-->
+                                        <!--<span class="title">Не крутится барабан</span>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                                <!--<div class="card card-problem">-->
+                                    <!--<div>-->
+                                        <!--<span class="title">Не открывается Не закрывается</span>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                                <!--<div class="card card-problem">-->
+                                    <!--<div>-->
+                                        <!--<span class="title">Извлечение посторонних предметов</span>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                                <!--<div class="card card-problem">-->
+                                    <!--<div>-->
+                                        <!--<span class="title">Другая проблема</span>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                                <!--<div class="card card-problem">-->
+                                    <!--<div>-->
+                                        <!--<span class="title">Другая проблема</span>-->
+                                    <!--</div>-->
+                                <!--</div>-->
                             </div>
                         </div>
                     </div>
@@ -164,7 +164,7 @@
         </section>
 
         <!--STEP 4-->
-        <section class="section" id="step-4">
+        <section class="section step" id="step-4">
             <div class="container">
                 <div class="holder-section">
                     <div class="left-container">
@@ -234,6 +234,8 @@
 
 </div>
 
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/data.js"></script>
 <script src="js/common.js"></script>
 </body>
 </html>

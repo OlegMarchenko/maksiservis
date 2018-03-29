@@ -68,7 +68,9 @@ img {
     color: #fff;
 }
 
-.holder-devices {
+.holder-devices,
+.holder-brands,
+.holder-problems {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -281,6 +283,9 @@ input[type=submit]:hover {
     padding-bottom: 200px;
 }
 
+.step {
+    display: none;
+}
 
 
 
