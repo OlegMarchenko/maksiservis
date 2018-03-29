@@ -73,7 +73,7 @@ img {
 .holder-problems {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .card {
@@ -246,6 +246,7 @@ img {
     font-size: 22px;
     transition: .4s all;
     border: 2px solid transparent;
+    background: transparent;
 }
 
 .form-holder input:focus {
@@ -262,9 +263,17 @@ input[type=number]::-webkit-outer-spin-button {
     margin: 0;
 }
 
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
 input::-webkit-input-placeholder {
     color: #9b9b9b;
     font-size: 22px;
+}
+
+input::-moz-placeholder {
+    color: #9b9b9b;
 }
 
 input[type=submit] {
@@ -392,6 +401,27 @@ input[type=submit]:hover {
     .description-device {
         display: block;
     }
+}
+
+
+.card-electric-stove {
+    background: url('../image/wave.png') bottom -19px right -18px no-repeat;
+    background-size: 210px
+}
+
+.card-fridge {
+    background: url('../image/fridge.png') bottom -19px right -18px no-repeat;
+    background-size: 210px;
+}
+
+.card-washer {
+    background: url('../image/washer.png') bottom -19px right -18px no-repeat;
+    background-size: 210px
+}
+
+.card-dishwasher {
+    background: url('../image/dishwasher.png') bottom -19px right -18px no-repeat;
+    background-size: 210px
 }
 
 
