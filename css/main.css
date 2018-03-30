@@ -206,11 +206,12 @@ img {
     display: flex;
     align-items: center;
     background: #eee;
-}
-
-.restoring {
     font-size: 22px;
     color: #aeaeae;
+}
+
+.restoring-none {
+    display: none;
 }
 
 .repair-price {
