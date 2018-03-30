@@ -3,22 +3,22 @@ const devices = [
     {
         name: 'electric-stove',
         title: 'Электроплита',
-        img: ''
+        img: 'image/wave.png'
     },
     {
         name: 'fridge',
         title: 'Холодильник',
-        img: ''
+        img: 'image/fridge.png'
     },
     {
         name: 'washer',
         title: 'Стиральная машина',
-        img: ''
+        img: 'image/washer.png'
     },
     {
         name: 'dishwasher',
         title: 'Посудомоичная машина',
-        img: ''
+        img: 'image/dishwasher.png'
     }
 
 ];
