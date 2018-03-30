@@ -299,17 +299,13 @@ input[type=submit]:hover {
     display: none;
 }
 
-@media screen and (max-width: 1650px){
+@media screen and (max-width: 1450px){
 
     .card {
         flex-basis: 44%;
         min-width: 44%;
         margin-bottom: 30px;
     }
-
-}
-
-@media screen and (max-width: 1450px){
 
     .description-device {
         flex-basis: 55%;
