@@ -12,8 +12,14 @@
 
             // eventListener for step1 devices
             $('.card-device').on('click', function () {
+
                 const selectorStep = '#step-2';
                 const identification = $(this).attr('data-device');
+
+                $('html, body').animate({
+                    scrollTop: $(selectorStep).offset().top
+                }, 2000);
+
 
                 self.result.device = identification;
                 console.log(currentElemIdent);
@@ -23,7 +29,6 @@
                     console.log('if');
                     // проверить и скрить секцию
                     $(selectorStep).toggle( "slow");
-                    // self.createDOMStep();
                 } else {
                     currentElemIdent = $(this).attr('data-device');
                     $('.card-device').unbind('click');
@@ -32,6 +37,7 @@
                     self.createDOMStep('data-brand', brands);
                     $(selectorStep).hide( "slow");
                     $(selectorStep).show( "slow");
+
                 }
 
 
@@ -46,7 +52,11 @@
                 if ($(this)[0].className === 'card card-brand') {
                     self.createDOMStep('data-problems', problems);
                     $(selectorStep).toggle( "slow" );
+
                 }
+                $('html, body').animate({
+                    scrollTop: $(selectorStep).offset().top
+                }, 2000);
 
 
             });
@@ -65,6 +75,9 @@
                     self.createResult();
                     $(selectorStep).show( "slow" );
                 }
+                $('html, body').animate({
+                    scrollTop: $(selectorStep).offset().top
+                }, 2000);
             });
 
         },

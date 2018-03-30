@@ -298,6 +298,7 @@ input[type=submit]:hover {
 
 .step {
     display: none;
+    /*min-height: 70vh;*/
 }
 
 @media screen and (max-width: 1450px){
