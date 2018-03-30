@@ -5,20 +5,18 @@ function showSection(dataResult) {
         const selectorStep = '#step-2';
         const identification = $(this).attr('data-device');
         dataResult.device = identification;
-        if($(this).hasClass('active')) {
-            $('.step').hide('slow');
-            $(this).removeClass('active');
-        }
-
-            $('.card-device').addClass('active');
-        if ($(this).hasClass('card card-device')) {
-
+        // if($(this).hasClass('active')) {
+        //     $('.step').hide('slow');
+        //     $(this).removeClass('active');
+        // }
+            // todo: create new functionality
+            // $('.card-device').addClass('active');
+        // if ($(this).hasClass('card card-device')) {
             // call of function render DOM
-            createDOMStep('data-brand', brands, null);
-            showSection(dataResult);
+            createDOMStep('data-brand', brands, dataResult);
 
             $(selectorStep).toggle( "slow").scroll();
-        }
+        // }
 
 
 
@@ -31,8 +29,8 @@ function showSection(dataResult) {
         const selectorStep = '#step-3';
         const identification = $(this).attr('data-brand');
         if ($(this)[0].className === 'card card-brand') {
-            createDOMStep('data-problems', problems, dataResult.device);
-            showSection();
+            createDOMStep('data-problems', problems, dataResult);
+            // showSection(dataResult);
             $(selectorStep).toggle( "slow" ).scroll();
         }
 
@@ -49,7 +47,7 @@ function showSection(dataResult) {
 
 }
 
-function createDOMStep(identification1, data, device) {
+function createDOMStep(identification1, data, dataResult) {
 
     if(identification1 === 'data-brand'){
         let content = '';
@@ -72,11 +70,11 @@ function createDOMStep(identification1, data, device) {
     if(identification1 === 'data-problems'){
         console.log('data-problem');
         let content = '';
-        console.log(device);
+        console.log(dataResult.device);
         data.forEach( item => {
-            if(item.identification !== undefined && item.identification === device){
+            if(item.identification !== undefined && item.identification === dataResult.device){
                 console.log('item.identification', item.identification);
-                console.log('idevice', device);
+                console.log('idevice', dataResult.device);
                 let contentString = `<div class="card card-problem" data-problem="${item}">
                                     <div>
                                         <span class="title">${item.problem}</span>
@@ -93,7 +91,7 @@ function createDOMStep(identification1, data, device) {
 
     }
 
-
+    showSection(dataResult);
 }
 
 $(document).ready(function () {
