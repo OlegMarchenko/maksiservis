@@ -3,37 +3,36 @@
         'showSection': function showSection(param) {
             let currentElemIdent = '';
             let self = this;
-            console.log('into showSection');
-            // $('.step').hide();
+
             if (param) {
                 $('.card-device').unbind('click');
                 $('.card-brand').unbind('click');
             }
 
-            // eventListener for step1 devices
             $('.card-device').on('click', function () {
-
                 const selectorStep = '#step-2';
                 const identification = $(this).attr('data-device');
 
-                $('html, body').animate({
-                    scrollTop: $(selectorStep).offset().top
-                }, 2000);
-
+                setTimeout(function () {
+                    $('html, body').animate({
+                        scrollTop: $(selectorStep).offset().top
+                    }, 2000);
+                }, 500);
 
                 self.result.device = identification;
-                console.log(currentElemIdent);
+
+                if(currentElemIdent !== identification) {
+                    $('#step-4').hide( "slow");
+                    $('#step-3').hide( "slow");
+                }
                 if (currentElemIdent !== '' && currentElemIdent === identification) {
                     currentElemIdent = $(this).attr('data-device');
                     $('.card-device').unbind('click');
-                    console.log('if');
-                    // проверить и скрить секцию
                     $(selectorStep).toggle( "slow");
+
                 } else {
                     currentElemIdent = $(this).attr('data-device');
                     $('.card-device').unbind('click');
-                    // просто создам елементы
-                    console.log('else');
                     self.createDOMStep('data-brand', brands);
                     $(selectorStep).hide( "slow");
                     $(selectorStep).show( "slow");
@@ -43,38 +42,38 @@
 
             });
 
-            // eventListener for step2 brands
             $('.card-brand').on('click', function () {
-                // debugger
-                console.log('step2');
+                let current = '';
                 const selectorStep = '#step-3';
                 const identification = $(this).attr('data-brand');
+                self.result.brand = identification;
+
                 if ($(this)[0].className === 'card card-brand') {
                     self.createDOMStep('data-problems', problems);
-                    $(selectorStep).toggle( "slow" );
-
+                    if (currentElemIdent !== identification) {
+                        $('#step-4').hide( "slow");
+                    }
+                    $(selectorStep).toggle( "slow");
+                    $('html, body').animate({
+                        scrollTop: $(selectorStep).offset().top
+                    }, 2000);
                 }
-                $('html, body').animate({
-                    scrollTop: $(selectorStep).offset().top
-                }, 2000);
-
+                currentElemIdent = $(this).attr('data-brand');
 
             });
 
             // eventListener for step3 problems
             $('.card-problem').on('click', function () {
-                console.log('sdsds');
                 const selectorStep = '#step-4';
                 const identification = $(this).attr('data-problem');
                 self.result.problemId = identification;
-                console.log(self.result.problemId);
+
                 if ($(this)[0].className === 'card card-problem') {
-                    console.log(self.result);
-                    // self.createDOMStep('data-problems', problems);
                     $(selectorStep).hide( "slow" );
                     self.createResult();
                     $(selectorStep).show( "slow" );
                 }
+
                 $('html, body').animate({
                     scrollTop: $(selectorStep).offset().top
                 }, 2000);
@@ -83,11 +82,11 @@
         },
         'createDOMStep': function (identification, data) {
             const self = this;
-            // debugger
-            // console.log(problems);
+
             if(identification === 'data-brand'){
                 let content = '';
                 $('.holder-brands').contents().remove();
+
                 data.forEach( item => {
                     let contentString = `<div class="card card-brand" data-brand="${item.name}">
                             <div>
@@ -96,33 +95,51 @@
                         </div>`;
                     content = content + contentString;
                 });
+
                 $('.holder-brands').append(content);
                 this.showSection(true);
             }
 
             if(identification === 'data-problems'){
-                console.log('data-problem');
+                const deviceBrand = self.result.device +'-'+self.result.brand;
                 let content = '';
+                let brandDeviceArray = [];
+                let deviceArray = [];
+
                 $('.holder-problems').contents().remove();
-                // console.log(dataResult.device);
+
                 data.forEach( item => {
-                    if(item.identification !== undefined && item.identification === self.result.device){
-                        console.log('item.identification', item.identification);
-                        // console.log('idevice', dataResult.device);
+                        // debugger
+                        if(item.identification === deviceBrand) {
+                            brandDeviceArray.push(item);
+                        }
+                        if(item.identification === self.result.device) {
+                            deviceArray.push(item);
+                        }
+                });
+
+                if( brandDeviceArray.length > 0) {
+                    brandDeviceArray.forEach(item => {
                         let contentString = `<div class="card card-problem" data-problem="${item.id}">
                                     <div>
                                         <span class="title">${item.problem}</span>
                                     </div>
                                 </div>`;
                         content = content + contentString;
-                    }
-
-                });
+                    });
+                }else {
+                    deviceArray.forEach(item => {
+                        let contentString = `<div class="card card-problem" data-problem="${item.id}">
+                                    <div>
+                                        <span class="title">${item.problem}</span>
+                                    </div>
+                                </div>`;
+                        content = content + contentString;
+                    });
+                }
 
                 $('.holder-problems').append(content);
                 this.showSection(true);
-
-
 
             }
 
@@ -135,19 +152,15 @@
                 if (item.name === self.result.device) {
                     self.result.title = item.title;
                     self.result.img = item.img;
-
                 }
             });
             problems.forEach( item => {
                 if (item.id === +self.result.problemId) {
                     self.result.titleProblem = item.problem;
-                    console.log(item.price);
                     self.result.price = item.price;
                     self.result.restriction = item.restriction;
-
-
                 }
-            })
+            });
 
             this.createDOMElementofResult();
 
@@ -197,7 +210,8 @@
             problemId: '',
             restriction: '',
             price: 0,
-            img: ''
+            img: '',
+            brand: ''
         },
     };
 
