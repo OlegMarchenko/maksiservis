@@ -1,0 +1,384 @@
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .gitignore	(date 1522390932000)
++++ .gitignore	(date 1522390932000)
+@@ -0,0 +1,1 @@
++./idea
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"d45e5b2a-6f1f-43ce-b5c0-6f73898b3d9e\" name=\"Default\" comment=\"\">\n      <change afterPath=\"$PROJECT_DIR$/js/data.js\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/css/main.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/css/main.css\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/index.html\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/js/common.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/js/common.js\" afterDir=\"false\" />\n    </list>\n    <ignored path=\"$PROJECT_DIR$/.tmp/\" />\n    <ignored path=\"$PROJECT_DIR$/temp/\" />\n    <ignored path=\"$PROJECT_DIR$/tmp/\" />\n    <option name=\"EXCLUDED_CONVERTED_TO_IGNORED\" value=\"true\" />\n    <option name=\"TRACKING_ENABLED\" value=\"true\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileEditorManager\">\n    <splitter split-orientation=\"horizontal\" split-proportion=\"0.67715615\">\n      <split-first>\n        <leaf SIDE_TABS_SIZE_LIMIT_KEY=\"300\">\n          <file leaf-file-name=\"index.html\" pinned=\"false\" current-in-tab=\"false\">\n            <entry file=\"file://$PROJECT_DIR$/index.html\">\n              <provider selected=\"true\" editor-type-id=\"text-editor\">\n                <state relative-caret-position=\"285\">\n                  <caret line=\"120\" column=\"83\" lean-forward=\"true\" selection-start-line=\"120\" selection-start-column=\"44\" selection-end-line=\"120\" selection-end-column=\"83\" />\n                </state>\n              </provider>\n            </entry>\n          </file>\n          <file leaf-file-name=\"common.js\" pinned=\"false\" current-in-tab=\"true\">\n            <entry file=\"file://$PROJECT_DIR$/js/common.js\">\n              <provider selected=\"true\" editor-type-id=\"text-editor\">\n                <state relative-caret-position=\"340\">\n                  <caret line=\"17\" column=\"36\" lean-forward=\"true\" selection-start-line=\"17\" selection-start-column=\"36\" selection-end-line=\"17\" selection-end-column=\"36\" />\n                  <folding>\n                    <element signature=\"e#1566#2526#0\" />\n                  </folding>\n                </state>\n              </provider>\n            </entry>\n          </file>\n          <file leaf-file-name=\"data.js\" pinned=\"false\" current-in-tab=\"false\">\n            <entry file=\"file://$PROJECT_DIR$/js/data.js\">\n              <provider selected=\"true\" editor-type-id=\"text-editor\">\n                <state relative-caret-position=\"744\">\n                  <caret line=\"612\" column=\"2\" selection-start-line=\"612\" selection-start-column=\"2\" selection-end-line=\"612\" selection-end-column=\"2\" />\n                </state>\n              </provider>\n            </entry>\n          </file>\n          <file leaf-file-name=\"main.css\" pinned=\"false\" current-in-tab=\"false\">\n            <entry file=\"file://$PROJECT_DIR$/css/main.css\">\n              <provider selected=\"true\" editor-type-id=\"text-editor\">\n                <state relative-caret-position=\"20\">\n                  <caret line=\"72\" column=\"16\" selection-start-line=\"72\" selection-start-column=\"1\" selection-end-line=\"72\" selection-end-column=\"16\" />\n                </state>\n              </provider>\n            </entry>\n          </file>\n        </leaf>\n      </split-first>\n      <split-second>\n        <leaf SIDE_TABS_SIZE_LIMIT_KEY=\"300\">\n          <file leaf-file-name=\"data.js\" pinned=\"false\" current-in-tab=\"true\">\n            <entry file=\"file://$PROJECT_DIR$/js/data.js\">\n              <provider selected=\"true\" editor-type-id=\"text-editor\">\n                <state relative-caret-position=\"-8120\">\n                  <caret line=\"95\" column=\"22\" selection-start-line=\"95\" selection-start-column=\"8\" selection-end-line=\"95\" selection-end-column=\"22\" />\n                </state>\n              </provider>\n            </entry>\n          </file>\n        </leaf>\n      </split-second>\n    </splitter>\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"SCSS File\" />\n        <option value=\"CSS File\" />\n        <option value=\"JavaScript File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"FindInProjectRecents\">\n    <findStrings>\n      <find>Не сливает воду</find>\n      <find>holder-de</find>\n    </findStrings>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"IdeDocumentHistory\">\n    <option name=\"CHANGED_PATHS\">\n      <list>\n        <option value=\"$PROJECT_DIR$/css/main.scss\" />\n        <option value=\"$PROJECT_DIR$/css/main.css\" />\n        <option value=\"$PROJECT_DIR$/index.html\" />\n        <option value=\"$PROJECT_DIR$/js/data.js\" />\n        <option value=\"$PROJECT_DIR$/js/common.js\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"JsBuildToolGruntFileManager\" detection-done=\"true\" sorting=\"DEFINITION_ORDER\" />\n  <component name=\"JsBuildToolPackageJson\" detection-done=\"true\" sorting=\"DEFINITION_ORDER\" />\n  <component name=\"JsGulpfileManager\">\n    <detection-done>true</detection-done>\n    <sorting>DEFINITION_ORDER</sorting>\n  </component>\n  <component name=\"ProjectFrameBounds\" extendedState=\"6\">\n    <option name=\"width\" value=\"950\" />\n    <option name=\"height\" value=\"1047\" />\n  </component>\n  <component name=\"ProjectLevelVcsManager\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectView\">\n    <navigator proportions=\"\" version=\"1\">\n      <foldersAlwaysOnTop value=\"true\" />\n    </navigator>\n    <panes>\n      <pane id=\"ProjectPane\">\n        <subPane>\n          <expand>\n            <path>\n              <item name=\"maksiservis\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"maksiservis\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"maksiservis\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"maksiservis\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"css\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"maksiservis\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"maksiservis\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"image\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"maksiservis\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"maksiservis\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"js\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n          </expand>\n          <select />\n        </subPane>\n      </pane>\n      <pane id=\"Scope\" />\n    </panes>\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\n    <property name=\"list.type.of.created.stylesheet\" value=\"CSS\" />\n    <property name=\"node.js.detected.package.prettier\" value=\"true\" />\n    <property name=\"node.js.path.for.package.prettier\" value=\"project\" />\n    <property name=\"node.js.selected.package.prettier\" value=\"\" />\n    <property name=\"nodejs_interpreter_path.stuck_in_default_project\" value=\"undefined stuck path\" />\n    <property name=\"nodejs_npm_path_reset_for_default_project\" value=\"true\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"configurable.group.appearance\" />\n  </component>\n  <component name=\"RunDashboard\">\n    <option name=\"ruleStates\">\n      <list>\n        <RuleState>\n          <option name=\"name\" value=\"ConfigurationTypeDashboardGroupingRule\" />\n        </RuleState>\n        <RuleState>\n          <option name=\"name\" value=\"StatusDashboardGroupingRule\" />\n        </RuleState>\n      </list>\n    </option>\n  </component>\n  <component name=\"SvnConfiguration\">\n    <configuration />\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"d45e5b2a-6f1f-43ce-b5c0-6f73898b3d9e\" name=\"Default\" comment=\"\" />\n      <created>1522249493506</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1522249493506</updated>\n      <workItem from=\"1522249494892\" duration=\"11595000\" />\n      <workItem from=\"1522302903247\" duration=\"19405000\" />\n      <workItem from=\"1522322599081\" duration=\"2687000\" />\n      <workItem from=\"1522325370897\" duration=\"4998000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TimeTrackingManager\">\n    <option name=\"totallyTimeSpent\" value=\"38685000\" />\n  </component>\n  <component name=\"ToolWindowManager\">\n    <frame x=\"0\" y=\"-1\" width=\"1920\" height=\"1050\" extended-state=\"6\" />\n    <editor active=\"true\" />\n    <layout>\n      <window_info active=\"true\" content_ui=\"combo\" id=\"Project\" order=\"0\" visible=\"true\" weight=\"0.10625\" />\n      <window_info anchor=\"bottom\" id=\"TODO\" order=\"6\" />\n      <window_info anchor=\"bottom\" id=\"Docker\" order=\"7\" show_stripe_button=\"false\" />\n      <window_info anchor=\"bottom\" id=\"Event Log\" order=\"10\" side_tool=\"true\" />\n      <window_info anchor=\"bottom\" id=\"Version Control\" order=\"9\" />\n      <window_info anchor=\"bottom\" id=\"Run\" order=\"2\" />\n      <window_info id=\"Structure\" order=\"1\" side_tool=\"true\" weight=\"0.25\" />\n      <window_info anchor=\"bottom\" id=\"Terminal\" order=\"8\" weight=\"0.32937366\" />\n      <window_info id=\"Favorites\" order=\"2\" side_tool=\"true\" />\n      <window_info anchor=\"bottom\" id=\"Debug\" order=\"3\" weight=\"0.4\" />\n      <window_info anchor=\"right\" content_ui=\"combo\" id=\"Hierarchy\" order=\"2\" weight=\"0.25\" />\n      <window_info anchor=\"bottom\" id=\"Inspection\" order=\"5\" weight=\"0.4\" />\n      <window_info anchor=\"right\" id=\"Commander\" internal_type=\"SLIDING\" order=\"0\" type=\"SLIDING\" weight=\"0.4\" />\n      <window_info anchor=\"right\" id=\"Ant Build\" order=\"1\" weight=\"0.25\" />\n      <window_info anchor=\"bottom\" id=\"Message\" order=\"0\" />\n      <window_info anchor=\"bottom\" id=\"Cvs\" order=\"4\" weight=\"0.25\" />\n      <window_info anchor=\"bottom\" id=\"Find\" order=\"1\" />\n    </layout>\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"1\" />\n  </component>\n  <component name=\"VcsContentAnnotationSettings\">\n    <option name=\"myLimit\" value=\"2678400000\" />\n  </component>\n  <component name=\"editorHistoryManager\">\n    <entry file=\"file://$PROJECT_DIR$/index.html\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"2340\">\n          <caret line=\"117\" column=\"55\" selection-start-line=\"117\" selection-start-column=\"55\" selection-end-line=\"117\" selection-end-column=\"55\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/css/main.css\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"1440\">\n          <caret line=\"72\" column=\"16\" selection-start-line=\"72\" selection-start-column=\"1\" selection-end-line=\"72\" selection-end-column=\"16\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/js/common.js\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"1280\">\n          <caret line=\"64\" column=\"74\" selection-start-line=\"64\" selection-start-column=\"74\" selection-end-line=\"64\" selection-end-column=\"74\" />\n          <folding>\n            <element signature=\"e#1566#2526#0\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/js/data.js\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"12220\">\n          <caret line=\"611\" column=\"2\" selection-start-line=\"611\" selection-start-column=\"2\" selection-end-line=\"611\" selection-end-column=\"2\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/index.html\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"4740\">\n          <caret line=\"237\" column=\"20\" selection-start-line=\"237\" selection-start-column=\"20\" selection-end-line=\"237\" selection-end-column=\"20\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/js/data.js\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"12220\">\n          <caret line=\"611\" column=\"2\" selection-start-line=\"611\" selection-start-column=\"2\" selection-end-line=\"611\" selection-end-column=\"2\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/css/main.css\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"5720\">\n          <caret line=\"286\" selection-start-line=\"286\" selection-end-line=\"286\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/index.html\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"420\">\n          <caret line=\"21\" column=\"29\" lean-forward=\"true\" selection-start-line=\"21\" selection-start-column=\"29\" selection-end-line=\"21\" selection-end-column=\"29\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/css/main.css\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"5320\">\n          <caret line=\"266\" lean-forward=\"true\" selection-start-line=\"266\" selection-end-line=\"266\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/css/main.scss\" />\n    <entry file=\"file://$PROJECT_DIR$/css/main.css\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"20\">\n          <caret line=\"72\" column=\"16\" selection-start-line=\"72\" selection-start-column=\"1\" selection-end-line=\"72\" selection-end-column=\"16\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/js/data.js\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"744\">\n          <caret line=\"612\" column=\"2\" selection-start-line=\"612\" selection-start-column=\"2\" selection-end-line=\"612\" selection-end-column=\"2\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/index.html\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"285\">\n          <caret line=\"120\" column=\"83\" lean-forward=\"true\" selection-start-line=\"120\" selection-start-column=\"44\" selection-end-line=\"120\" selection-end-column=\"83\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/js/common.js\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"340\">\n          <caret line=\"17\" column=\"36\" lean-forward=\"true\" selection-start-line=\"17\" selection-start-column=\"36\" selection-end-line=\"17\" selection-end-column=\"36\" />\n          <folding>\n            <element signature=\"e#1566#2526#0\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision ed679bc3d5bb3fc4e18ff46b9566e007636e62e5)
++++ .idea/workspace.xml	(date 1522390933000)
+@@ -2,11 +2,8 @@
+ <project version="4">
+   <component name="ChangeListManager">
+     <list default="true" id="d45e5b2a-6f1f-43ce-b5c0-6f73898b3d9e" name="Default" comment="">
+-      <change afterPath="$PROJECT_DIR$/js/data.js" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
+     </list>
+     <ignored path="$PROJECT_DIR$/.tmp/" />
+     <ignored path="$PROJECT_DIR$/temp/" />
+@@ -25,20 +22,31 @@
+           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+             <entry file="file://$PROJECT_DIR$/index.html">
+               <provider selected="true" editor-type-id="text-editor">
+-                <state relative-caret-position="285">
+-                  <caret line="120" column="83" lean-forward="true" selection-start-line="120" selection-start-column="44" selection-end-line="120" selection-end-column="83" />
++                <state relative-caret-position="2400">
++                  <caret line="120" column="83" selection-start-line="120" selection-start-column="44" selection-end-line="120" selection-end-column="83" />
+                 </state>
+               </provider>
+             </entry>
+           </file>
+-          <file leaf-file-name="common.js" pinned="false" current-in-tab="true">
++          <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
+             <entry file="file://$PROJECT_DIR$/js/common.js">
+               <provider selected="true" editor-type-id="text-editor">
+-                <state relative-caret-position="340">
+-                  <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+-                  <folding>
+-                    <element signature="e#1566#2526#0" />
+-                  </folding>
++                <state relative-caret-position="405">
++                  <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
++                </state>
++              </provider>
++            </entry>
++          </file>
++          <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
++            <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
++              <provider selected="true" editor-type-id="text-editor" />
++            </entry>
++          </file>
++          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
++            <entry file="file://$PROJECT_DIR$/.gitignore">
++              <provider selected="true" editor-type-id="text-editor">
++                <state>
++                  <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+                 </state>
+               </provider>
+             </entry>
+@@ -46,7 +54,7 @@
+           <file leaf-file-name="data.js" pinned="false" current-in-tab="false">
+             <entry file="file://$PROJECT_DIR$/js/data.js">
+               <provider selected="true" editor-type-id="text-editor">
+-                <state relative-caret-position="744">
++                <state relative-caret-position="12240">
+                   <caret line="612" column="2" selection-start-line="612" selection-start-column="2" selection-end-line="612" selection-end-column="2" />
+                 </state>
+               </provider>
+@@ -55,7 +63,7 @@
+           <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+             <entry file="file://$PROJECT_DIR$/css/main.css">
+               <provider selected="true" editor-type-id="text-editor">
+-                <state relative-caret-position="20">
++                <state relative-caret-position="1440">
+                   <caret line="72" column="16" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="16" />
+                 </state>
+               </provider>
+@@ -68,7 +76,7 @@
+           <file leaf-file-name="data.js" pinned="false" current-in-tab="true">
+             <entry file="file://$PROJECT_DIR$/js/data.js">
+               <provider selected="true" editor-type-id="text-editor">
+-                <state relative-caret-position="-8120">
++                <state relative-caret-position="20">
+                   <caret line="95" column="22" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="22" />
+                 </state>
+               </provider>
+@@ -104,6 +112,7 @@
+         <option value="$PROJECT_DIR$/index.html" />
+         <option value="$PROJECT_DIR$/js/data.js" />
+         <option value="$PROJECT_DIR$/js/common.js" />
++        <option value="$PROJECT_DIR$/.gitignore" />
+       </list>
+     </option>
+   </component>
+@@ -125,6 +134,7 @@
+       <foldersAlwaysOnTop value="true" />
+     </navigator>
+     <panes>
++      <pane id="Scope" />
+       <pane id="ProjectPane">
+         <subPane>
+           <expand>
+@@ -151,7 +161,6 @@
+           <select />
+         </subPane>
+       </pane>
+-      <pane id="Scope" />
+     </panes>
+   </component>
+   <component name="PropertiesComponent">
+@@ -195,40 +204,105 @@
+     <servers />
+   </component>
+   <component name="TimeTrackingManager">
+-    <option name="totallyTimeSpent" value="38685000" />
++    <option name="totallyTimeSpent" value="38856000" />
+   </component>
+   <component name="ToolWindowManager">
+     <frame x="0" y="-1" width="1920" height="1050" extended-state="6" />
+     <editor active="true" />
+     <layout>
+-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10625" />
++      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.107538216" />
+       <window_info anchor="bottom" id="TODO" order="6" />
++      <window_info anchor="bottom" id="Messages" />
+       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+-      <window_info anchor="bottom" id="Version Control" order="9" />
++      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32936078" />
+       <window_info anchor="bottom" id="Run" order="2" />
+       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32937366" />
++      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33152762" />
+       <window_info id="Favorites" order="2" side_tool="true" />
+       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
++      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
++      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10625" />
++      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
++      <window_info anchor="bottom" id="TODO" order="6" />
++      <window_info anchor="bottom" id="Version Control" order="9" />
++      <window_info anchor="bottom" id="Run" order="2" />
++      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+       <window_info anchor="bottom" id="Message" order="0" />
++      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+       <window_info anchor="bottom" id="Find" order="1" />
++      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32937366" />
++      <window_info id="Favorites" order="2" side_tool="true" />
+     </layout>
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="1" />
+   </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State>
++              <option name="RECENTLY_FILTERED_USER_GROUPS">
++                <collection />
++              </option>
++              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
++                <collection />
++              </option>
++              <option name="COLUMN_ORDER">
++                <list>
++                  <option value="0" />
++                  <option value="1" />
++                  <option value="2" />
++                  <option value="3" />
++                </list>
++              </option>
++            </State>
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
+   <component name="VcsContentAnnotationSettings">
+     <option name="myLimit" value="2678400000" />
+   </component>
+   <component name="editorHistoryManager">
+     <entry file="file://$PROJECT_DIR$/index.html">
+       <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="2400">
++          <caret line="120" column="83" selection-start-line="120" selection-start-column="44" selection-end-line="120" selection-end-column="83" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/css/main.css">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="1440">
++          <caret line="72" column="16" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="16" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/js/common.js">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="1840">
++          <caret line="92" selection-start-line="92" selection-end-line="92" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/js/data.js">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="12240">
++          <caret line="612" column="2" selection-start-line="612" selection-start-column="2" selection-end-line="612" selection-end-column="2" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/index.html">
++      <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="2340">
+           <caret line="117" column="55" selection-start-line="117" selection-start-column="55" selection-end-line="117" selection-end-column="55" />
+         </state>
+@@ -245,9 +319,6 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="1280">
+           <caret line="64" column="74" selection-start-line="64" selection-start-column="74" selection-end-line="64" selection-end-column="74" />
+-          <folding>
+-            <element signature="e#1566#2526#0" />
+-          </folding>
+         </state>
+       </provider>
+     </entry>
+@@ -296,32 +367,131 @@
+     <entry file="file://$PROJECT_DIR$/css/main.scss" />
+     <entry file="file://$PROJECT_DIR$/css/main.css">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="20">
++        <state relative-caret-position="1440">
++          <caret line="72" column="16" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="16" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/js/data.js">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="12240">
++          <caret line="612" column="2" selection-start-line="612" selection-start-column="2" selection-end-line="612" selection-end-column="2" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/index.html">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="2400">
++          <caret line="120" column="83" selection-start-line="120" selection-start-column="44" selection-end-line="120" selection-end-column="83" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/js/common.js">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="405">
++          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
++      <provider selected="true" editor-type-id="text-editor" />
++    </entry>
++    <entry file="file://$PROJECT_DIR$/index.html">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="2340">
++          <caret line="117" column="55" selection-start-line="117" selection-start-column="55" selection-end-line="117" selection-end-column="55" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/css/main.css">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="1440">
+           <caret line="72" column="16" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="16" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/js/common.js">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="1280">
++          <caret line="64" column="74" selection-start-line="64" selection-start-column="74" selection-end-line="64" selection-end-column="74" />
+         </state>
+       </provider>
+     </entry>
+     <entry file="file://$PROJECT_DIR$/js/data.js">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="744">
++        <state relative-caret-position="12220">
++          <caret line="611" column="2" selection-start-line="611" selection-start-column="2" selection-end-line="611" selection-end-column="2" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/index.html">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="4740">
++          <caret line="237" column="20" selection-start-line="237" selection-start-column="20" selection-end-line="237" selection-end-column="20" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/js/data.js">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="12220">
++          <caret line="611" column="2" selection-start-line="611" selection-start-column="2" selection-end-line="611" selection-end-column="2" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/css/main.css">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="5720">
++          <caret line="286" selection-start-line="286" selection-end-line="286" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/index.html">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="420">
++          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/css/main.css">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="5320">
++          <caret line="266" lean-forward="true" selection-start-line="266" selection-end-line="266" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/css/main.scss" />
++    <entry file="file://$PROJECT_DIR$/css/main.css">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="1440">
++          <caret line="72" column="16" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="16" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/js/data.js">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="12240">
+           <caret line="612" column="2" selection-start-line="612" selection-start-column="2" selection-end-line="612" selection-end-column="2" />
+         </state>
+       </provider>
+     </entry>
+     <entry file="file://$PROJECT_DIR$/index.html">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="285">
+-          <caret line="120" column="83" lean-forward="true" selection-start-line="120" selection-start-column="44" selection-end-line="120" selection-end-column="83" />
++        <state relative-caret-position="2400">
++          <caret line="120" column="83" selection-start-line="120" selection-start-column="44" selection-end-line="120" selection-end-column="83" />
+         </state>
+       </provider>
+     </entry>
+     <entry file="file://$PROJECT_DIR$/js/common.js">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="340">
+-          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+-          <folding>
+-            <element signature="e#1566#2526#0" />
+-          </folding>
++        <state relative-caret-position="405">
++          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/.gitignore">
++      <provider selected="true" editor-type-id="text-editor">
++        <state>
++          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+         </state>
+       </provider>
+     </entry>
